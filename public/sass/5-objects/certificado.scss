@@ -4,14 +4,14 @@ form[name="formCertificado"]{
     }
 }
 .certificado {
-    width: 21cm;
-    height: 29.6cm;
+    width: 21.59cm;
+    height: 35.56cm;
     position: relative;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 25px;
     font-weight: 600;
     img {
-        width: 21cm;
+        width: 21.59cm;
     }
     div {
         position: absolute;
@@ -24,69 +24,69 @@ form[name="formCertificado"]{
     }
     &.hapkido {
         .dia {
-            left: 12.7cm;
-            top: 15.85cm;
+            left: 13cm;
+            top: 16.35cm;
         }
         .mes {
-            left: 13.7cm;
-            top: 15.85cm;
+            left: 14.1cm;
+            top: 16.35cm;
         }
         .ano {
-            left: 14.8cm;
-            top: 15.85cm;
+            left: 15.1cm;
+            top: 16.35cm;
         }
         .nome {
-            left: 6cm;
-            top: 13.4cm;
+            left: 6.3cm;
+            top: 13.8cm;
         }
         .faixa {
-            left: 6.5cm;
-            top: 15.85cm;
+            left: 6.7cm;
+            top: 16.35cm;
         }
     }
     &.taekwondo {
         .dia {
-            left: 12.7cm;
-            top: 15.85cm;
+            left: 13cm;
+            top: 16.35cm;
         }
         .mes {
-            left: 13.7cm;
-            top: 15.85cm;
+            left: 14.1cm;
+            top: 16.35cm;
         }
         .ano {
-            left: 14.8cm;
-            top: 15.85cm;
+            left: 15.1cm;
+            top: 16.35cm;
         }
         .nome {
-            left: 6cm;
-            top: 13.4cm;
+            left: 6.3cm;
+            top: 13.8cm;
         }
         .faixa {
-            left: 6.5cm;
-            top: 15.85cm;
+            left: 6.7cm;
+            top: 16.35cm;
         }
     }
     &.muay {
         font-size: 28px;
         .dia {
-            left: 14.3cm;
-            top: 14.65cm;
+            left: 14.7cm;
+            top: 16.4cm;
         }
         .mes {
-            left: 15.5cm;
-            top: 14.65cm;
+            left: 15.9cm;
+            top: 16.4cm;
         }
         .ano {
-            left: 16.8cm;
-            top: 14.65cm;
+            left: 17.2cm;
+            top: 16.4cm;
         }
         .nome {
-            left: 4.5cm;
-            top: 11.4cm;
+            left: 4.7cm;
+            top: 13.1cm;
         }
         .faixa {
-            left: 5.5cm;
-            top: 14.65cm;
+            left: 5.7cm;
+            top: 16.4cm;
         }
     }
 }
@@ -114,16 +114,16 @@ form[name="formCertificado"]{
         }
         &.hapkido {
             .dia {
-                left: 12.7cm;
-                top: 15.85cm;
+                left: 12.6cm;
+                top: 15.88cm;
             }
             .mes {
-                left: 13.7cm;
-                top: 15.85cm;
+                left: 13.6cm;
+                top: 15.88cm;
             }
             .ano {
-                left: 14.8cm;
-                top: 15.85cm;
+                left: 14.7cm;
+                top: 15.88cm;
             }
             .nome {
                 left: 6cm;
@@ -131,51 +131,51 @@ form[name="formCertificado"]{
             }
             .faixa {
                 left: 6.5cm;
-                top: 15.85cm;
+                top: 15.88cm;
             }
         }
         &.taekwondo {
             .dia {
-                left: 12.7cm;
-                top: 15.85cm;
+                left: 12.6cm;
+                top: 15.88cm;
             }
             .mes {
-                left: 13.7cm;
-                top: 15.85cm;
+                left: 13.6cm;
+                top: 15.88cm;
             }
             .ano {
-                left: 14.8cm;
-                top: 15.85cm;
+                left: 14.7cm;
+                top: 15.88cm;
             }
             .nome {
                 left: 6cm;
                 top: 13.4cm;
             }
             .faixa {
-                left: 6.5cm;
-                top: 15.85cm;
+                left: 6.4cm;
+                top: 15.88cm;
             }
         }
         &.muay {
             .dia {
                 left: 14.3cm;
-                top: 14.75cm;
+                top: 15.96cm;
             }
             .mes {
                 left: 15.5cm;
-                top: 14.75cm;
+                top: 15.96cm;
             }
             .ano {
                 left: 16.8cm;
-                top: 14.75cm;
+                top: 15.96cm;
             }
             .nome {
-                left: 4.5cm;
-                top: 11.5cm;
+                left: 4.7cm;
+                top: 12.76cm;
             }
             .faixa {
                 left: 5.5cm;
-                top: 14.75cm;
+                top: 15.96cm;
             }
         }
     }

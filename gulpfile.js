@@ -67,6 +67,6 @@ gulp.task('watch', function(){
   gulp.watch('./public/sass/**/*.scss', ['sass']);
 });
 
-gulp.task('build', ["copy", "deploy"]);
+gulp.task('build', ["sass", "copy"]);
 
 gulp.task('default', ['webserver', 'openbrowser', 'watch']);

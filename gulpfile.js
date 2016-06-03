@@ -3,7 +3,6 @@ var webserver = require('gulp-webserver');
 var opn       = require('opn');
 var sass      = require('gulp-sass');
 var plumber   = require('gulp-plumber');
-var ghPages = require('gulp-gh-pages');
 
 var folderPaths = {
   scss: './public/sass',
@@ -43,12 +42,8 @@ gulp.task('webserver', function() {
     }));
 });
 
-gulp.task('deploy', function() {
-  return gulp.src('./dist/**/*')
-    .pipe(ghPages());
-});
 
-gulp.task('copy', function() {
+gulp.task('build', ['sass'], function() {
     gulp.src([folderPaths.css+"**/*", folderPaths.script+"**/*", folderPaths.views+"**/*", folderPaths.images+"**/*", folderPaths.partials+"**/*", folderPaths.libs+"**/*/*.*", "./public/*.html"])
         .pipe(gulp.dest('./dist/'))
 });
@@ -66,7 +61,5 @@ gulp.task('sass', function () {
 gulp.task('watch', function(){
   gulp.watch('./public/sass/**/*.scss', ['sass']);
 });
-
-gulp.task('build', ["sass", "copy"]);
 
 gulp.task('default', ['webserver', 'openbrowser', 'watch']);

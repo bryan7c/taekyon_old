@@ -35,8 +35,8 @@ app.controller('certificadoHapkidoCtrl',function($scope, $rootScope, $location){
 			{nome: "4º Dan"}
 		],
 		"Muay Thai":[
-			{nome: "Branco e Cinza"},
 			{nome: "Cinza"},
+			{nome: "Cinza e Branco"},
 			{nome: "Branco"},
 			{nome: "Branco e Vermelho"},
 			{nome: "Vermelho"},

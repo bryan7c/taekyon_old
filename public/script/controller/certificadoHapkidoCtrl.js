@@ -36,6 +36,7 @@ app.controller('certificadoHapkidoCtrl',function($scope, $rootScope, $location){
 		],
 		"Muay Thai":[
 			{nome: "Branco e Cinza"},
+			{nome: "Cinza"},
 			{nome: "Branco"},
 			{nome: "Branco e Vermelho"},
 			{nome: "Vermelho"},

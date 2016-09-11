@@ -95,21 +95,30 @@ form[name="formCertificado"] h3 {
   .certificado.hapkido .faixa {
     left: 6.7cm;
     top: 16.35cm; }
-  .certificado.hapkido.last .dia {
-    left: 11.99cm;
-    top: 19.1cm; }
-  .certificado.hapkido.last .mes {
-    left: 12.99cm;
-    top: 19.1cm; }
-  .certificado.hapkido.last .ano {
-    left: 14cm;
-    top: 19.1cm; }
-  .certificado.hapkido.last .nome {
-    left: 7.4cm;
-    top: 16.8cm; }
-  .certificado.hapkido.last .faixa {
-    left: 9.1cm;
-    top: 19.1cm; }
+  .certificado.hapkido.last {
+    width: 29.7cm;
+    height: 42cm;
+    position: relative;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: 600; }
+    .certificado.hapkido.last img {
+      width: 29.7cm; }
+    .certificado.hapkido.last .dia {
+      left: 16.7cm;
+      top: 26.6cm; }
+    .certificado.hapkido.last .mes {
+      left: 18cm;
+      top: 26.6cm; }
+    .certificado.hapkido.last .ano {
+      left: 19.5cm;
+      top: 26.6cm; }
+    .certificado.hapkido.last .nome {
+      left: 10cm;
+      top: 23.5cm; }
+    .certificado.hapkido.last .faixa {
+      left: 12.5cm;
+      top: 26.6cm; }
   .certificado.taekwondo .dia {
     left: 13cm;
     top: 16.35cm; }
@@ -176,6 +185,30 @@ form[name="formCertificado"] h3 {
     .certificado.hapkido .faixa {
       left: 6.5cm;
       top: 15.88cm; }
+    .certificado.hapkido.last {
+      width: 29.7cm;
+      height: 42cm;
+      position: relative;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 25px;
+      font-weight: 600; }
+      .certificado.hapkido.last img {
+        width: 29.7cm; }
+      .certificado.hapkido.last .dia {
+        left: 16.7cm;
+        top: 26.6cm; }
+      .certificado.hapkido.last .mes {
+        left: 18cm;
+        top: 26.6cm; }
+      .certificado.hapkido.last .ano {
+        left: 19.5cm;
+        top: 26.6cm; }
+      .certificado.hapkido.last .nome {
+        left: 10cm;
+        top: 23.5cm; }
+      .certificado.hapkido.last .faixa {
+        left: 12.5cm;
+        top: 26.6cm; }
     .certificado.taekwondo .dia {
       left: 12.6cm;
       top: 15.88cm; }

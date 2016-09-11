@@ -44,25 +44,34 @@ form[name="formCertificado"]{
             top: 16.35cm;
         }
         &.last{
+            width: 29.7cm;
+            height: 42cm;
+            position: relative;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 25px;
+            font-weight: 600;
+            img {
+                width: 29.7cm;
+            }
             .dia {
-                left: 11.99cm;
-                top: 19.1cm;
+                left: 16.7cm;
+                top: 26.6cm;
             }
             .mes {
-                left: 12.99cm;
-                top: 19.1cm;
+                left: 18cm;
+                top: 26.6cm;
             }
             .ano {
-                left: 14cm;
-                top: 19.1cm;
+                left: 19.5cm;
+                top: 26.6cm;
             }
             .nome {
-                left: 7.4cm;
-                top: 16.8cm;
+                left: 10cm;
+                top: 23.5cm;
             }
             .faixa {
-                left: 9.1cm;
-                top: 19.1cm;
+                left: 12.5cm;
+                top: 26.6cm;
             }
         }
     }
@@ -154,6 +163,37 @@ form[name="formCertificado"]{
             .faixa {
                 left: 6.5cm;
                 top: 15.88cm;
+            }
+            &.last{
+                width: 29.7cm;
+                height: 42cm;
+                position: relative;
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-size: 25px;
+                font-weight: 600;
+                img {
+                    width: 29.7cm;
+                }
+                .dia {
+                    left: 16.7cm;
+                    top: 26.6cm;
+                }
+                .mes {
+                    left: 18cm;
+                    top: 26.6cm;
+                }
+                .ano {
+                    left: 19.5cm;
+                    top: 26.6cm;
+                }
+                .nome {
+                    left: 10cm;
+                    top: 23.5cm;
+                }
+                .faixa {
+                    left: 12.5cm;
+                    top: 26.6cm;
+                }
             }
         }
         &.taekwondo {

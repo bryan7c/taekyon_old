@@ -95,6 +95,21 @@ form[name="formCertificado"] h3 {
   .certificado.hapkido .faixa {
     left: 6.7cm;
     top: 16.35cm; }
+  .certificado.hapkido.last .dia {
+    left: 11.99cm;
+    top: 19.1cm; }
+  .certificado.hapkido.last .mes {
+    left: 12.99cm;
+    top: 19.1cm; }
+  .certificado.hapkido.last .ano {
+    left: 14cm;
+    top: 19.1cm; }
+  .certificado.hapkido.last .nome {
+    left: 7.4cm;
+    top: 16.8cm; }
+  .certificado.hapkido.last .faixa {
+    left: 9.1cm;
+    top: 19.1cm; }
   .certificado.taekwondo .dia {
     left: 13cm;
     top: 16.35cm; }

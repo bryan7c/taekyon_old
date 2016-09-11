@@ -13,7 +13,7 @@
         </div>
         <div class="form-group col-md-4">
             <label for="graduacao">Graduação</label>
-            <select class="form-control" id="graduacao" ng-model="certificado.graduacao" ng-options="graduacao.nome as graduacao.nome for graduacao in graduacoes" regquired>
+            <select class="form-control" id="graduacao" ng-model="certificado.graduacao" ng-options="graduacao as graduacao.nome for graduacao in graduacoes" regquired>
                 <option value="">Escolha a graduação</option>
             </select>
         </div>
@@ -28,11 +28,12 @@
         </div>
     </form>    
 </div>
+{{certificado}}
 <div class="row">
-    <div class="certificado {{certificado.arte.nome | lowercase}}" ng-repeat="certificado in certificados">
-        <img ng-src="img/{{certificado.arte.imagem}}">
+    <div class="certificado {{certificado.arte.nome | lowercase}} {{certificado.graduacao.certificado | lowercase}}" ng-repeat="certificado in certificados">
+        <img ng-src="img/{{certificado.graduacao.certificado + certificado.arte.imagem}}">
         <div class="nome">{{certificado.nome}}</div>
-        <div class="faixa">{{certificado.graduacao}}</div>
+        <div class="faixa">{{certificado.graduacao.valor}}</div>
         <div class="dia">{{certificado.data | date:"dd"}}</div>
         <div class="mes">{{certificado.data | date:"MM"}}</div>
         <div class="ano">{{certificado.data | date:"yyyy"}}</div>

@@ -43,6 +43,28 @@ form[name="formCertificado"]{
             left: 6.7cm;
             top: 16.35cm;
         }
+        &.last{
+            .dia {
+                left: 11.99cm;
+                top: 19.1cm;
+            }
+            .mes {
+                left: 12.99cm;
+                top: 19.1cm;
+            }
+            .ano {
+                left: 14cm;
+                top: 19.1cm;
+            }
+            .nome {
+                left: 7.4cm;
+                top: 16.8cm;
+            }
+            .faixa {
+                left: 9.1cm;
+                top: 19.1cm;
+            }
+        }
     }
     &.taekwondo {
         .dia {

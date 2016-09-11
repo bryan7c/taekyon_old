@@ -28,7 +28,6 @@
         </div>
     </form>    
 </div>
-{{certificado}}
 <div class="row">
     <div class="certificado {{certificado.arte.nome | lowercase}} {{certificado.graduacao.certificado | lowercase}}" ng-repeat="certificado in certificados">
         <img ng-src="img/{{certificado.graduacao.certificado + certificado.arte.imagem}}">

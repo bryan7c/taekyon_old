@@ -3,27 +3,23 @@
         <h3>Gerar Certificado</h3>
         <div class="form-group col-md-12">
             <label for="nome">Nome</label>
-            <input class="form-control" type="text" id="nome" ng-model="certificado.nome" required>
+            <input class="form-control" type="text" id="nome" ng-model="certificado.nome" regquired>
         </div>
         <div class="form-group col-md-4">
             <label for="arte">Arte</label>
-            <select class="form-control" id="arte" ng-model="certificado.arte" ng-change="filterGraduacao(certificado.arte)" ng-options="arte.nome for arte in artes" required>
+            <select class="form-control" id="arte" ng-model="certificado.arte" ng-change="filterGraduacao(certificado.arte)" ng-options="arte.nome for arte in artes" regquired>
                 <option value="">Escolha a arte</option>
             </select>
         </div>
         <div class="form-group col-md-4">
             <label for="graduacao">Graduação</label>
-<<<<<<< HEAD
             <select class="form-control" id="graduacao" ng-model="certificado.graduacao" ng-options="graduacao as graduacao.nome for graduacao in graduacoes" regquired>
-=======
-            <select class="form-control" id="graduacao" ng-model="certificado.graduacao" ng-options="graduacao.nome as graduacao.nome for graduacao in graduacoes" required>
->>>>>>> 5385e5677fe8b5e5f1b0bd67f062fdedf64806c4
                 <option value="">Escolha a graduação</option>
             </select>
         </div>
         <div class="form-group col-md-4">
             <label for="data">Data</label>
-            <input class="form-control" type="date" id="data" ng-model="certificado.data" required>
+            <input class="form-control" type="date" id="data" ng-model="certificado.data" regquired>
         </div>
         <hr  class="row col-md-12" />
         <div class="form-group control col-md-12">
@@ -32,7 +28,6 @@
         </div>
     </form>    
 </div>
-{{certificado}}
 <div class="row">
     <div class="certificado {{certificado.arte.nome | lowercase}} {{certificado.graduacao.certificado | lowercase}}" ng-repeat="certificado in certificados">
         <img ng-src="img/{{certificado.graduacao.certificado + certificado.arte.imagem}}">
